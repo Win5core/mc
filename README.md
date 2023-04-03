@@ -5,4 +5,5 @@
 ## 📝 Working on
 
 Currently working on these features:
+- Upload server files to this repository
 - Make a website
