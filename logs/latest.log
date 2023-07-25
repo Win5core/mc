@@ -1,0 +1,66 @@
+[03:18:38] [Server thread/INFO]: oOVERDARKo[/83.123.185.222:5244] logged in with entity id 239235 at (-129.95118320946068, 118.0, -2166.3936704940947)
+[03:18:38] [Server thread/INFO]: ✔oOVERDARKo dokhol kard!!
+[03:18:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4886ms or 97 ticks behind
+[03:28:34] [Server thread/INFO]: oOVERDARKo lost connection: Disconnected
+[03:28:34] [Server thread/INFO]: ✖oOVERDARKo dokmasho zad!!
+[03:28:34] [Server thread/INFO]: Disconnecting client oOVERDARKo
+[04:18:43] [Server thread/INFO]: [Textile Backup] Warning! Server backup will begin shortly. You may experience some lag.
+[04:18:43] [Server thread/INFO]: [Textile Backup] Backup started by: Timer on: 2023.07.25_04-18-43
+[04:18:43] [pool-7-thread-1/INFO]: [Textile Backup] Saving server...
+[04:18:43] [pool-7-thread-1/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:18:43] [pool-7-thread-1/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:18:43] [pool-7-thread-1/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:18:43] [pool-7-thread-1/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:18:43] [pool-7-thread-1/INFO]: [Textile Backup] Starting backup
+[04:21:59] [pool-7-thread-1/INFO]: [Textile Backup] Compression took: 03:16.540 seconds.
+[04:22:00] [pool-7-thread-1/INFO]: [Textile Backup] Deleted: /root/bnmc/backup/world/2023.07.23_09-54-58.zip
+[04:22:00] [pool-7-thread-1/INFO]: [Textile Backup] Done!
+[15:18:33] [Server thread/INFO]: kaizoku[/31.2.190.30:64171] logged in with entity id 241124 at (-1326.4719683037865, 71.0, 1437.1531531733535)
+[15:18:33] [Server thread/INFO]: ✔MR Beast dokhol kard!!
+[15:22:24] [Server thread/INFO]: kaizoku lost connection: Disconnected
+[15:22:24] [Server thread/INFO]: MRBeast varshekaste shod ‼
+[15:22:24] [Server thread/INFO]: Disconnecting client MR Beast
+[15:53:59] [Server thread/INFO]: kaizoku[/31.2.190.30:65110] logged in with entity id 243099 at (-1306.7418029336272, 71.0, 1427.9046488116112)
+[15:53:59] [Server thread/INFO]: ✔MR Beast dokhol kard!!
+[15:54:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2196ms or 43 ticks behind
+[15:54:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@7321281d[id=<null>,name=Win5core,properties={},legacy=false] (/5.209.90.185:63255) lost connection: Disconnected
+[15:54:29] [Server thread/INFO]: Win5core[/5.209.90.185:63290] logged in with entity id 243782 at (-1938.699999988079, 70.0, 1754.6473045248813)
+[15:54:29] [Server thread/INFO]: ✔♦ Win5core dokhol kard!!
+[15:54:31] [Server thread/WARN]: kaizoku moved too quickly! 6.964338124682172,-7.998543326782723,-0.6108971534929424
+[15:54:37] [Server thread/INFO]: kaizoku lost connection: Disconnected
+[15:54:37] [Server thread/INFO]: MRBeast varshekaste shod ‼
+[15:54:37] [Server thread/INFO]: Disconnecting client MR Beast
+[15:54:39] [Server thread/INFO]: Win5core lost connection: Disconnected
+[15:54:39] [Server thread/INFO]: ✖♦ Win5core dokmasho zad!!
+[15:54:39] [Server thread/INFO]: Disconnecting client ♦ Win5core
+[15:54:46] [Server thread/INFO]: kaizoku[/31.2.190.30:65140] logged in with entity id 244135 at (-1333.4300254313714, 73.0, 1446.7315381614649)
+[15:54:46] [Server thread/INFO]: ✔MR Beast dokhol kard!!
+[15:54:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3787ms or 75 ticks behind
+[15:54:51] [Server thread/INFO]: kaizoku lost connection: Disconnected
+[15:54:51] [Server thread/INFO]: MRBeast varshekaste shod ‼
+[15:54:51] [Server thread/INFO]: Disconnecting client MR Beast
+[16:01:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:01:09] [Server thread/INFO]: [A[A[Astop<--[HERE]
+[16:01:12] [Server thread/INFO]: Stopping the server
+[16:01:12] [Server thread/INFO]: [Plan] Processing complete.
+[16:01:12] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[16:01:12] [Server thread/INFO]: [Plan] Transaction queue closed.
+[16:01:12] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[16:01:12] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[16:01:12] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[16:01:12] [Server thread/INFO]: Stopping server
+[16:01:12] [Server thread/INFO]: Saving players
+[16:01:12] [Server thread/INFO]: Saving worlds
+[16:01:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:01:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:01:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:01:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:01:13] [Server thread/INFO]: [Textile Backup] Warning! Server backup will begin shortly. You may experience some lag.
+[16:01:13] [Server thread/INFO]: [Textile Backup] Backup started by: Server Shutdown on: 2023.07.25_16-01-13
+[16:01:13] [Server thread/INFO]: [Textile Backup] Starting backup
+[16:02:22] [Server thread/INFO]: [Textile Backup] Compression took: 01:08.509 seconds.
+[16:02:22] [Server thread/INFO]: [Textile Backup] Deleted: /root/bnmc/backup/world/2023.07.23_10-54-58.zip
+[16:02:22] [Server thread/INFO]: [Textile Backup] Done!

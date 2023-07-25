@@ -1,0 +1,172 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 2023-07-13 13:59:42
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Cannot invoke "eu.pb4.styledplayerlist.config.Config.isPlayerHidden(net.minecraft.class_3222)" because the return value of "eu.pb4.styledplayerlist.config.ConfigManager.getConfig()" is null
+	at net.minecraft.class_2703$class_2705.constant$bkh000$styledplayerlist$styledPlayerList$hideRealPlayer(class_2703.java:514)
+	at net.minecraft.class_2703$class_2705.<init>(class_2703.java:141)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at net.minecraft.class_2703.<init>(class_2703.java:26)
+	at net.minecraft.class_3324.method_14601(class_3324.java:573)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:910)
+	at net.minecraft.class_3176.method_3813(class_3176.java:283)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 5.15.0-76-generic
+	Java Version: 17.0.7, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 1977728088 bytes (1886 MiB) / 3846176768 bytes (3668 MiB) up to 7864320000 bytes (7500 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: QEMU Virtual CPU version 2.5+
+	Identifier: Intel64 Family 6 Model 13 Stepping 3
+	Microarchitecture: Pentium M
+	Frequency (GHz): 2.00
+	Number of physical packages: 4
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MB): 10111.71
+	Virtual memory used (MB): 3118.55
+	Swap memory total (MB): 6142.97
+	Swap memory used (MB): 2.73
+	JVM Flags: 2 total; -Xmx7500M -Xms1000M
+	Fabric Mods: 
+		audioplayer: AudioPlayer 1.20.1-1.5.2
+			fabric-api-base: Fabric API Base 0.4.29+b04edc7a82
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.11+b3afc78b82
+		cloth-config: Cloth Config v11 11.0.99
+			cloth-basic-math: cloth-basic-math 0.6.1
+		collective: Collective 6.62
+		easywhitelist: Easy Whitelist Mod 1.0.1
+		fabric-api: Fabric API 0.84.0+1.20.1
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.34+4d8536c977
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.10+b3afc78b77
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.9+e022e5d177
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.32+f71b366f77
+			fabric-commands-v0: Fabric Commands (v0) 0.2.49+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.61+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.7+b3afc78b77
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.3+b3afc78b77
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.18+aeb40ebe77
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.1.11+b3afc78b77
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.51+b3afc78b77
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.21+b3afc78b77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.0+b3afc78b77
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.61+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.38+b04edc7a77
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.26+b3afc78b77
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.7+b3afc78b77
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.20+b3afc78b77
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.37+b3afc78b77
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.41+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.6+b3afc78b77
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.47+b3afc78b77
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.8+b3afc78b77
+			fabric-networking-v0: Fabric Networking (v0) 0.3.48+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.0.6+b3afc78b77
+			fabric-particles-v1: Fabric Particles (v1) 1.0.28+b3afc78b77
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.18+b3afc78b77
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.2.6+b3afc78b77
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.33+b3afc78b77
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.26+b3afc78b77
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.5+ea08f9d877
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.7+f7923f6d77
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.27+b3afc78b77
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.2.2+b3afc78b77
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.2.0+b3afc78b77
+		fabricloader: Fabric Loader 0.14.21
+		ferritecore: FerriteCore 6.0.0
+		goml: Get Off My Lawn ReServed 1.9.0+1.20-rc1
+			cardinal-components-world: Cardinal Components API (worlds) 5.0.2
+			common-protection-api: Common Protection API 1.0.0
+			fabric-permissions-api-v0: fabric-permissions-api 0.2-SNAPSHOT
+			playerabilitylib: Pal 1.8.0-patbox
+			polymer-core: Polymer (Core) 0.5.0-rc.2+1.20-rc1
+				polymer-networking: Polymer (Networking) 0.5.0-rc.2+1.20-rc1
+					polymer-common: Polymer (Common) 0.5.0-rc.2+1.20-rc1
+						packet_tweaker: Packet Tweaker 0.4.0+1.19.4
+				polymer-registry-sync-manipulator: Polymer (Registry Sync Manipulator) 0.5.0-rc.2+1.20-rc1
+			rtree-3i-lite-fabric: rtree-3i-lite for Fabric 0.3.0
+			server_translations_api: Server Translations API 2.0.0-beta.2+1.19.4-pre2
+		image2map: Image2Map 0.4.2+1.20
+			map-canvas-api: Map Canvas API 0.2.2+1.19.4
+			sgui: sgui 1.2.2+1.20
+		inventorysorter: Inventory Sorter 1.9.0-1.20
+			kyrptconfig: Kyrpt Config 1.5.6-1.20
+		java: OpenJDK 64-Bit Server VM 17
+		lazydfu: LazyDFU 0.1.3
+		leaves_us_in_peace: Leaves Us In Peace 1.0.17
+			com_github_llamalad7_mixinextras: MixinExtras 0.2.0-beta.8
+			crowdin-translate: CrowdinTranslate 1.4+1.19.3
+		lithium: Lithium 0.11.2
+		minecraft: Minecraft 1.20.1
+		minimotd-fabric: MiniMOTD 2.0.13
+			adventure-platform-fabric: adventure-platform-fabric 5.10.0-SNAPSHOT
+				net_kyori_adventure-api: adventure-api 4.14.0
+				net_kyori_adventure-key: adventure-key 4.14.0
+				net_kyori_adventure-platform-api: adventure-platform-api 4.3.0
+				net_kyori_adventure-text-logger-slf4j: adventure-text-logger-slf4j 4.14.0
+				net_kyori_adventure-text-minimessage: adventure-text-minimessage 4.14.0
+				net_kyori_adventure-text-serializer-ansi: adventure-text-serializer-ansi 4.14.0
+				net_kyori_adventure-text-serializer-gson: adventure-text-serializer-gson 4.14.0
+				net_kyori_adventure-text-serializer-json: adventure-text-serializer-json 4.14.0
+				net_kyori_adventure-text-serializer-plain: adventure-text-serializer-plain 4.14.0
+				net_kyori_ansi: ansi 1.0.1
+				net_kyori_examination-api: examination-api 1.3.0
+				net_kyori_examination-string: examination-string 1.3.0
+		placeholder-api: Placeholder API 2.1.2+1.20.1
+		plan: Plan 5.5 build 2411
+		randomshulkercolours: Random Shulker Colours 3.0
+		skinrestorer: Skin Restorer 1.2.3
+		starlight: Starlight 1.1.2+fabric.dbc156f
+		styledchat: Styled Chat 2.2.1+1.20.1
+			player-data-api: Player Data API 0.2.2+1.19.3
+			predicate-api: Predicate API 0.1.2+1.20
+		styledplayerlist: Styled Player List 3.1.1+1.20.1
+		textile_backup: Textile Backup 3.1.0-1.20
+			com_github_shevek_parallelgzip: parallelgzip af5f5c297e735f3f2df7aa4eb0e19a5810b8aff6
+			org_apache_commons_commons-compress: commons-compress 1.22
+			org_tukaani_xz: xz 1.9
+		unloadedactivity: Unloaded Activity 0.4.2
+			cardinal-components-base: Cardinal Components API (base) 5.2.1
+			cardinal-components-block: Cardinal Components API (blocks) 5.2.1
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.2.1
+			cardinal-components-entity: Cardinal Components API (entities) 5.2.1
+		voicechat: Simple Voice Chat 1.20.1-2.4.13
+		zombify: Zombify 0.1.4
+	Server Running: true
+	Player Count: 1 / 69; [class_3222['Win5core'/93, l='ServerLevel[world]', x=-977.78, y=50.06, z=1557.85]]
+	Data Packs: vanilla, fabric, leaves_us_in_peace:oak_leaves_recognize_jungle_logs
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
