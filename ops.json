@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "5c3e1856-f21f-324c-ac62-d92ee81bcf61",
+    "name": "ham_bn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8e12d7f1-cdb3-3c03-b588-0f5af41a515d",
+    "name": "\b\b\b\b/",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d65c8703-ecc2-3120-bee5-fb6c346d4668",
+    "name": "ham\b\b\b\b\b",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

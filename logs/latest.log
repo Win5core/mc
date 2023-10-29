@@ -1,0 +1,317 @@
+[14:37:53] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.14.24
+[14:37:53] [ForkJoinPool-1-worker-1/WARN]: Mod unloadedactivity uses the version v0.5.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v0'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:37:53] [ForkJoinPool-1-worker-4/WARN]: Mod com_github_shevek_parallelgzip uses the version af5f5c297e735f3f2df7aa4eb0e19a5810b8aff6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'af5f5c297e735f3f2df7aa4eb0e19a5810b8aff6'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:37:54] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20.2+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
+	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.20.2+1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Textile Backup' (textile_backup) 3.1.2-1.20 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[14:37:54] [main/INFO]: Loading 130 mods:
+	- brewery 0.5.0+1.20.2-rc2
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- placeholder-api 2.2.0+1.20.2
+	   |-- polymer-core 0.6.0-rc.3+1.20.2-rc2
+	   |    |-- polymer-networking 0.6.0-rc.3+1.20.2-rc2
+	   |    |    \-- polymer-common 0.6.0-rc.3+1.20.2-rc2
+	   |    |         \-- packet_tweaker 0.5.0+1.20.2-rc1
+	   |    \-- polymer-registry-sync-manipulator 0.6.0-rc.3+1.20.2-rc2
+	   |-- polymer-resource-pack 0.6.0-rc.3+1.20.2-rc2
+	   |    \-- polymer-common 0.6.0-rc.3+1.20.2-rc2
+	   |         \-- packet_tweaker 0.5.0+1.20.2-rc1
+	   |-- polymer-virtual-entity 0.6.0-rc.3+1.20.2-rc2
+	   |    \-- polymer-common 0.6.0-rc.3+1.20.2-rc2
+	   |         \-- packet_tweaker 0.5.0+1.20.2-rc1
+	   |-- server_translations_api 2.1.0+1.20.2-rc2
+	   |    \-- packet_tweaker 0.5.0+1.20.2-rc1
+	   \-- sgui 1.3.0+1.20.2
+	- c2me 0.2.0+alpha.10.126
+	   |-- c2me-base 0.2.0+alpha.10.126
+	   |-- c2me-client-uncapvd 0.2.0+alpha.10.126
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.10.126
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.10.126
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.10.126
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.10.126
+	   |-- c2me-notickvd 0.2.0+alpha.10.126
+	   |-- c2me-opts-allocs 0.2.0+alpha.10.126
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.10.126
+	   |-- c2me-opts-chunkio 0.2.0+alpha.10.126
+	   |-- c2me-opts-math 0.2.0+alpha.10.126
+	   |-- c2me-opts-scheduling 0.2.0+alpha.10.126
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.10.126
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.10.126
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.10.126
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.10.126
+	   |-- c2me-server-utils 0.2.0+alpha.10.126
+	   |-- c2me-threading-chunkio 0.2.0+alpha.10.126
+	   |-- c2me-threading-lighting 0.2.0+alpha.10.126
+	   |-- c2me-threading-worldgen 0.2.0+alpha.10.126
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   \-- org_threadly_threadly 7.0
+	- cloth-config 12.0.109
+	   \-- cloth-basic-math 0.6.1
+	- debugify 1.20.2+1.0
+	   \-- com_github_llamalad7_mixinextras 0.2.0-rc.4
+	- diamondeconomy 1.5.6
+	   |-- org_xerial_sqlite-jdbc 3.36.0.3
+	   \-- placeholder-api 2.2.0+1.20.2
+	- diamondsauctionhouse 1.1.5+1.20.2
+	   \-- sgui 1.3.0+1.20.2
+	- easywhitelist 1.0.1
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- fabric-api 0.90.4+1.20.2
+	   |-- fabric-api-base 0.4.33+fce67b32a0
+	   |-- fabric-api-lookup-api-v1 1.6.42+b1792f7da0
+	   |-- fabric-biome-api-v1 13.0.14+b1792f7da0
+	   |-- fabric-block-api-v1 1.0.12+73761d2ea0
+	   |-- fabric-block-view-api-v2 1.0.1+73761d2ea0
+	   |-- fabric-blockrenderlayer-v1 1.1.43+f4b7e424a0
+	   |-- fabric-client-tags-api-v1 1.1.4+86b12645a0
+	   |-- fabric-command-api-v1 1.2.37+f71b366fa0
+	   |-- fabric-command-api-v2 2.2.16+b1792f7da0
+	   |-- fabric-commands-v0 0.2.54+df3654b3a0
+	   |-- fabric-containers-v0 0.1.74+df3654b3a0
+	   |-- fabric-content-registries-v0 5.0.5+b1792f7da0
+	   |-- fabric-convention-tags-v1 1.5.8+b1792f7da0
+	   |-- fabric-crash-report-info-v1 0.2.20+f4b7e424a0
+	   |-- fabric-data-generation-api-v1 13.1.4+b1792f7da0
+	   |-- fabric-dimensions-v1 2.1.57+b1792f7da0
+	   |-- fabric-entity-events-v1 1.5.26+b1792f7da0
+	   |-- fabric-events-interaction-v0 0.6.10+b1792f7da0
+	   |-- fabric-events-lifecycle-v0 0.2.69+df3654b3a0
+	   |-- fabric-game-rule-api-v1 1.0.41+b1792f7da0
+	   |-- fabric-item-api-v1 2.1.33+b1792f7da0
+	   |-- fabric-item-group-api-v1 4.0.15+e3d2bf3fa0
+	   |-- fabric-key-binding-api-v1 1.0.38+f4b7e424a0
+	   |-- fabric-keybindings-v0 0.2.36+df3654b3a0
+	   |-- fabric-lifecycle-events-v1 2.2.27+b1792f7da0
+	   |-- fabric-loot-api-v2 2.1.1+3ba460fba0
+	   |-- fabric-message-api-v1 6.0.2+e3d2bf3fa0
+	   |-- fabric-mining-level-api-v1 2.1.55+f4b7e424a0
+	   |-- fabric-model-loading-api-v1 1.0.6+b1792f7da0
+	   |-- fabric-models-v0 0.4.5+9386d8a7a0
+	   |-- fabric-networking-api-v1 3.0.10+b1792f7da0
+	   |-- fabric-object-builder-api-v1 12.1.2+2ff98d3ba0
+	   |-- fabric-particles-v1 1.1.4+f4b7e424a0
+	   |-- fabric-recipe-api-v1 2.0.7+b1792f7da0
+	   |-- fabric-registry-sync-v0 4.0.5+b1792f7da0
+	   |-- fabric-renderer-api-v1 3.2.1+2034447ca0
+	   |-- fabric-renderer-indigo 1.5.1+2034447ca0
+	   |-- fabric-renderer-registries-v1 3.2.49+df3654b3a0
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+73761d2ea0
+	   |-- fabric-rendering-fluids-v1 3.0.30+f4b7e424a0
+	   |-- fabric-rendering-v0 1.1.52+df3654b3a0
+	   |-- fabric-rendering-v1 3.0.11+b1792f7da0
+	   |-- fabric-resource-conditions-api-v1 2.3.10+e3d2bf3fa0
+	   |-- fabric-resource-loader-v0 0.11.12+b1792f7da0
+	   |-- fabric-screen-api-v1 2.0.12+b1792f7da0
+	   |-- fabric-screen-handler-api-v1 1.3.40+b1792f7da0
+	   |-- fabric-sound-api-v1 1.0.14+f4b7e424a0
+	   |-- fabric-transfer-api-v1 3.3.9+b1792f7da0
+	   \-- fabric-transitive-access-wideners-v1 5.0.3+fce67b32a0
+	- fabricloader 0.14.24
+	- fallingtree 5.0.2
+	- ferritecore 6.0.1
+	- inventorysorter 1.9.0-1.20
+	   \-- kyrptconfig 1.5.6-1.20
+	- java 19
+	- krypton 0.2.4
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lazydfu 0.1.3
+	- minecraft 1.20.2
+	- minimotd-fabric 2.0.14
+	   \-- adventure-platform-fabric 5.10.0
+	        |-- net_kyori_adventure-api 4.14.0
+	        |-- net_kyori_adventure-key 4.14.0
+	        |-- net_kyori_adventure-platform-api 4.3.0
+	        |-- net_kyori_adventure-text-logger-slf4j 4.14.0
+	        |-- net_kyori_adventure-text-minimessage 4.14.0
+	        |-- net_kyori_adventure-text-serializer-ansi 4.14.0
+	        |-- net_kyori_adventure-text-serializer-gson 4.14.0
+	        |-- net_kyori_adventure-text-serializer-json 4.14.0
+	        |-- net_kyori_adventure-text-serializer-plain 4.14.0
+	        |-- net_kyori_ansi 1.0.3
+	        |-- net_kyori_examination-api 1.3.0
+	        \-- net_kyori_examination-string 1.3.0
+	- mr_advancement_count 1-v1.1.0b
+	- plan 5.6+build.2614
+	- skinrestorer 1.2.4
+	- starlight 1.1.3+fabric.5867eae
+	- styled-nicknames 1.3.0+1.20.2
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- placeholder-api 2.2.0+1.20.2
+	   \-- player-data-api 0.3.0+1.20.2
+	- styledchat 2.3.0+1.20.2
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- player-data-api 0.3.0+1.20.2
+	   \-- predicate-api 0.3.0+1.20.2
+	- styledplayerlist 3.2.0+1.20.2
+	   |-- placeholder-api 2.2.0+1.20.2
+	   |-- player-data-api 0.3.0+1.20.2
+	   \-- predicate-api 0.3.0+1.20.2
+	- textile_backup 3.1.2-1.20
+	   |-- com_github_shevek_parallelgzip af5f5c297e735f3f2df7aa4eb0e19a5810b8aff6
+	   |-- org_apache_commons_commons-compress 1.22
+	   \-- org_tukaani_xz 1.9
+	- universal_shops 1.4.0+1.20.2
+	   |-- common-economy-api 1.1.1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- placeholder-api 2.2.0+1.20.2
+	   |-- server_translations_api 2.1.0+1.20.2-rc2
+	   |    \-- packet_tweaker 0.5.0+1.20.2-rc1
+	   \-- sgui 1.3.0+1.20.2
+	- unloadedactivity v0.5.0
+	   |-- cardinal-components-base 5.3.0
+	   |-- cardinal-components-block 5.3.0
+	   |-- cardinal-components-chunk 5.3.0
+	   |-- cardinal-components-entity 5.3.0
+	   \-- cardinal-components-world 5.3.0
+	- vmp 0.2.0+beta.7.118
+	- zombify 0.1.4
+[14:37:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/smp/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[14:37:54] [main/INFO]: Compatibility level set to JAVA_17
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[14:37:54] [main/INFO]: Disabling config fixes.disableLoggingShutdownHook: Incompatible with textile_backup@3.1.2-1.20 (*) (defined in c2me)
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:37:54] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[14:37:54] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[14:37:54] [main/INFO]: Preloading Debugify
+[14:37:55] [main/WARN]: Reference map 'universal_shops-refmap.json' for universal_shops.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:37:55] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[14:37:55] [main/WARN]: Error loading class: net/minecraft/class_8673 (java.lang.ClassNotFoundException: net/minecraft/class_8673)
+[14:37:55] [main/WARN]: @Mixin target net.minecraft.class_8673 was not found polymer-networking.mixins.json:client.ClientCommonNetworkHandlerMixin from mod polymer-networking
+[14:37:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0-rc.4).
+[14:37:58] [main/WARN]: @Final field field_31100:I in unloadedactivity.mixins.json:chunk.randomTicks.PlantStemMixin from mod unloadedactivity should be final
+[14:37:58] [main/WARN]: @Final field field_11986:Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap; in unloadedactivity.mixins.json:block_entities.AbstractFurnaceBlockEntityMixin from mod unloadedactivity should be final
+[14:38:03] [main/INFO]: Enabled 33 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[14:38:03] [main/INFO]: Successfully Debugify'd your game!
+[14:38:03] [main/INFO]: [EasyWhitelist] Whitelist is now name-based.
+[14:38:03] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[14:38:04] [main/INFO]: Done initializing MiniMOTD
+[14:38:04] [main/INFO]: [Textile Backup] Starting Textile Backup 3.1.2-1.20:1.20.2 by Szum123321
+[14:38:04] [main/INFO]: Loading config.
+[14:38:04] [main/INFO]: Hello Fabric world!
+[14:38:04] [main/INFO]: Have fun curing your zombie friends!
+[14:38:04] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[14:38:04] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:38:06] [main/INFO]: Loaded 7 recipes
+[14:38:06] [main/INFO]: Loaded 1277 advancements
+[14:38:06] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 136 translation keys
+[14:38:07] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.075 ms
+[14:38:07] [Server thread/INFO]: [Plan] 
+[14:38:07] [Server thread/INFO]: [Plan]            ██▌
+[14:38:07] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[14:38:07] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[14:38:07] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6+build.2614
+[14:38:07] [Server thread/INFO]: [Plan] 
+[14:38:08] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[14:38:08] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[14:38:08] [pool-4-thread-1/INFO]: [Plan] You're using the latest version.
+[14:38:08] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[14:38:08] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[14:38:08] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[14:38:08] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: ./config/plan/Cert.jks
+[14:38:08] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[14:38:08] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[14:38:08] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[14:38:08] [Server thread/INFO]: [Plan] Loading server identifying information
+[14:38:08] [Server thread/INFO]: [Plan] Server identifier loaded: acea3222-3c1d-4e3d-be6b-91244cfe4898
+[14:38:08] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[14:38:08] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[14:38:08] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[14:38:08] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[14:38:08] [Server thread/INFO]: Loading properties
+[14:38:08] [Server thread/INFO]: Default game type: SURVIVAL
+[14:38:08] [Server thread/INFO]: Generating keypair
+[14:38:08] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:6969
+[14:38:08] [Server thread/INFO]: Using epoll channel type
+[14:38:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:38:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:38:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:38:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:38:08] [Server thread/INFO]: Preparing level "world"
+[14:38:08] [Server thread/INFO]: Enforcing safe world random access
+[14:38:09] [Server thread/INFO]: Changing watch distance to 10
+[14:38:10] [Server thread/INFO]: Changing watch distance to 10
+[14:38:10] [Server thread/INFO]: Changing watch distance to 10
+[14:38:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:38:10] [C2ME worker #3/INFO]: Preparing spawn area: 0%
+[14:38:10] [C2ME worker #4/INFO]: Preparing spawn area: 0%
+[14:38:10] [C2ME worker #2/INFO]: Preparing spawn area: 0%
+[14:38:11] [minecraft_overworld - Light/INFO]: Preparing spawn area: 89%
+[14:38:11] [Server thread/INFO]: Time elapsed: 1283 ms
+[14:38:11] [Server thread/INFO]: Done (3.144s)! For help, type "help"
+[14:38:12] [Server thread/ERROR]: Invalid path : Invalid path ''
+[14:38:28] [Netty Epoll Login IO Thread #1/INFO]: Negotiated common packet version 1
+[14:38:28] [Server thread/INFO]: Win5core[/46.224.82.109:48756] logged in with entity id 176 at (-67.54947724167923, 66.0, -1117.4210291232448)
+[14:38:28] [Server thread/INFO]: ✔Win5core dokhol kard!!
+[14:38:28] [Server thread/INFO]: Async chunk loading for player Win5core completed
+[14:40:37] [Netty Epoll Login IO Thread #1/INFO]: Negotiated common packet version 1
+[14:40:37] [Server thread/INFO]: ham_bn[/37.98.67.227:24541] logged in with entity id 567 at (-1691.1886061707874, 67.0, 471.85724004895195)
+[14:40:37] [Server thread/INFO]: ✔ham_bn dokhol kard!!
+[14:40:38] [Server thread/INFO]: Async chunk loading for player ham_bn completed
+[14:40:48] [Server thread/INFO]: [Win5core: Item successfully added to auction house for $45]
+[14:42:28] [Server thread/INFO]: Win5core » auc
+[14:42:43] [Server thread/INFO]: [Win5core: Item successfully added to auction house for $10]
+[14:43:07] [Server thread/INFO]: [Win5core: Item successfully added to auction house for $1]
+[14:43:34] [Server thread/INFO]: [Win5core: Item successfully added to auction house for $0]
+[14:44:17] [Server thread/INFO]: Win5core » aucset
+[14:45:00] [Server thread/INFO]: [Win5core: Item successfully added to auction house for $0]
+[14:51:23] [Server thread/INFO]: ham_bn has made the advancement [Getting an Upgrade]
+[14:54:37] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:54:37] [Server thread/INFO]: stpop<--[HERE]
+[14:54:39] [Server thread/INFO]: Stopping the server
+[14:54:39] [Server thread/INFO]: [Plan] Saving unfinished sessions..
+[14:54:39] [Server thread/INFO]: [Plan] Processing complete.
+[14:54:39] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[14:54:39] [Server thread/INFO]: [Plan] Transaction queue closed.
+[14:54:39] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[14:54:40] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[14:54:40] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[14:54:40] [Server thread/INFO]: Stopping server
+[14:54:40] [Server thread/INFO]: Saving players
+[14:54:40] [Server thread/INFO]: Win5core lost connection: Server closed
+[14:54:40] [Server thread/INFO]: ✖Win5core dokmasho zad!!
+[14:54:40] [Server thread/INFO]: Saving worlds
+[14:54:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:54:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:54:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:54:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:54:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:54:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:54:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:54:44] [C2ME Storage #3/INFO]: Storage thread Thread[#100,C2ME Storage #3,8,main] stopped
+[14:54:44] [C2ME Storage #2/INFO]: Storage thread Thread[#99,C2ME Storage #2,8,main] stopped
+[14:54:44] [C2ME Storage #1/INFO]: Storage thread Thread[#98,C2ME Storage #1,8,main] stopped
+[14:54:44] [C2ME Storage #5/INFO]: Storage thread Thread[#102,C2ME Storage #5,8,main] stopped
+[14:54:44] [C2ME Storage #6/INFO]: Storage thread Thread[#103,C2ME Storage #6,8,main] stopped
+[14:54:44] [C2ME Storage #4/INFO]: Storage thread Thread[#101,C2ME Storage #4,8,main] stopped
+[14:54:44] [C2ME Storage #9/INFO]: Storage thread Thread[#106,C2ME Storage #9,8,main] stopped
+[14:54:44] [C2ME Storage #8/INFO]: Storage thread Thread[#105,C2ME Storage #8,8,main] stopped
+[14:54:44] [C2ME Storage #7/INFO]: Storage thread Thread[#104,C2ME Storage #7,8,main] stopped
+[14:54:44] [Server thread/INFO]: [Textile Backup] Warning! Server backup will begin shortly. You may experience some lag.
+[14:54:44] [Server thread/INFO]: [Textile Backup] Backup started by: Server Shutdown on: 2023.10.29_14-54-44
+[14:54:44] [Server thread/INFO]: [Textile Backup] Starting backup
+[14:55:01] [Server thread/INFO]: [Textile Backup] Compression took: 16.240 seconds.
+[14:55:01] [Server thread/INFO]: [Textile Backup] Deleted: /smp/backup/world/2023.10.28_17-14-16#shutdown.zip
+[14:55:01] [Server thread/INFO]: [Textile Backup] Done!

@@ -1,0 +1,25 @@
+{
+  "require": {
+    "type": "permission",
+    "permission": "Win5core"
+  },
+  "style_name": "Default",
+  "update_tick_time": 20,
+  "list_header": [
+    "",
+    "<bold><gr:dark_blue:black:dark_blue>⛏ BN MC ⛏",
+    "",
+    "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
+    ""
+  ],
+  "list_footer": [
+    "",
+    "<color:#555555><strikethrough>                          </strikethrough></color>",
+    "",
+    "<gray>TPS: %server:tps_colored% <dark_gray>|</dark_gray> <gray>Ping: %player:ping_colored%",
+    "Playtime: <color:#0d2aee>%player:playtime%</color>",
+    ""
+  ],
+  "hidden_in_commands": false,
+  "legacy_line_joining (Remove once updating!)": true
+}
